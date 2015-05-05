@@ -1,5 +1,5 @@
 # docker-dynamic-redis
-Forked from [urlgrey/docker-dynamic-redis](https://github.com/urlgrey/docker-dynamic-redis). The only different is that this image will load geo.so by default.
+Forked from [urlgrey/docker-dynamic-redis](https://github.com/urlgrey/docker-dynamic-redis). The only thing different is that this image will load geo.so by default.
 Docker image for the [Dynamic Redis](https://matt.sh/dynamic-redis) server.  Uses a Dockerfile based on the official Redis Docker image.  See the [Redis Docker documentation](https://github.com/docker-library/docs/tree/master/redis) for examples of how to run the Docker image with custom configuration and storage options.  Please file an issue here if you discover incompatibilities.
 
 # Running
