@@ -7,7 +7,7 @@ Docker image for the [Dynamic Redis](https://matt.sh/dynamic-redis) server.  Use
 Uses the default redis configuration that's supplied with the Dynamic Redis project.
 
 ```shell
-$ sudo docker run -p 6379:6379 dynamic-redis:latest
+$ sudo docker run -p 6379:6379 ruyi/dynamic-redis
 1:C 23 Apr 04:29:58.980 * Module [<builtin>] loaded 163 commands.
 1:C 23 Apr 04:29:58.990 * Loading new [geo.so] module.
 1:C 23 Apr 04:29:58.990 * Added command geoadd [geo.so]
